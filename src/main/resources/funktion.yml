@@ -1,0 +1,7 @@
+---
+flows:
+- steps:
+  - kind: endpoint
+    uri: twitter-mention:?accessToken=&accessTokenSecret=&consumerKey=&consumerSecret=
+  - kind: endpoint
+    uri: salesforce-upsert-contact:?clientId=&clientSecret=&loginUrl=https://login.salesforce.com&refreshToken=
